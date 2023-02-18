@@ -1,0 +1,13 @@
+#mydiv
+        {
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            box-shadow: 15px 15px 2px black;
+            border-color: yellow;
+            border-style: double;
+            background-color: chartreuse;
+            margin: 20px;
+            border-width: 10px;
+            border-style: dashed;
+        }

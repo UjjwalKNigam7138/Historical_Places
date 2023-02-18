@@ -1,0 +1,27 @@
+h2{
+    background-color: black;
+    color: aqua;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* id name */
+#myid{
+    background-color:blue;
+    color :greenyellow;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* class name */
+.myclass{
+    background-color :aqua;
+    color:black;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.class1{
+    margin: 20px;
+    padding: 2px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: double;
+}

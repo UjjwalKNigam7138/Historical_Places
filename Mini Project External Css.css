@@ -1,0 +1,112 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+}
+#a{grid-area: a1;}
+#b{grid-area: b1;}
+#c{grid-area: c1;}
+#d{grid-area: d1;}
+#e{grid-area: e1;}
+#f{grid-area: f1;}
+h1{
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+.maindiv{
+    display: inline-grid;
+    grid-template-areas:"a1 a1 a1 a1 a1 a1 b1 b1 b1 b1 b1 b1 "
+    "c1 c1 c1 c1 c1 c1 d1 d1 d1 d1 d1 d1 "
+    "e1 e1 e1 e1 e1 e1 f1 f1 f1 f1 f1 f1";
+    padding : 10px;
+    margin:0px;
+    grid-gap:20px;
+    border-radius: 0px;
+}
+.maindiv > div{
+    padding : 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: dotted;
+    background-color: white;
+    color: black; 
+    width: 100%;
+}
+h2{
+    left: 0px;
+    bottom: 0px;
+    /* background-image: linear-gradient(40deg,white,blue,yellow); */
+    color:white;
+    background-color: black;
+    text-align: center;
+    position:relative;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    background-color: white;
+}
+.aligned{
+    text-align:justify;
+}
+.opaque:hover
+{
+    opacity: 0.4;
+}
+#thnk{grid-area: T1;}
+#first{grid-area: F1;}
+#second{grid-area: S1;}
+.footer1
+{
+    display:grid;
+    grid-template-areas: "T1 T1 T1 T1 T1 T1"
+    "F1 F1 F1 S1 S1 S1";
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding : 10px;
+    margin: 0px;
+    grid-gap:20px;
+}
+.thumbnail 
+{
+    z-index:200; 
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+} 
+.thumbnail:hover 
+{ 
+    transform: scale(1.3); 
+}
+.thumbnail1 
+{
+    z-index:20; 
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+} 
+.thumbnail1:hover 
+{ 
+    transform: scale(1.09); 
+}
+.thumbnail2 
+{
+    z-index:20; 
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+} 
+.thumbnail2:hover 
+{ 
+    transform: scale(1.4); 
+}

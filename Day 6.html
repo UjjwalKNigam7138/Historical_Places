@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        h1{
+            background-color: black;
+            color: aqua;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            /* letter-spacing: 10px; */
+            /* word-spacing: 100px; */
+            /* padding is the distance between the content and the border */
+            /* padding: 20px; */
+            border-radius: 0px;
+            /* text-indent: 250px; */
+        }
+        body{
+            /* background-color:red; */
+            background-image: url('image1.jpg');
+            background-size: cover;
+            /* background-repeat : repeat-x; */
+            background-attachment: fixed;   
+            /* background-attachment: fixed;   is used to fix the background while scrolling */
+        }
+        #box{
+            width: 150px;
+            height: 150px;
+            padding: 30px;
+            margin: 30px;
+            border-radius: 10px;
+            background-color: aqua;
+            animation-name: myanim;
+            animation-duration: 30s;
+            animation-iteration-count: 50;
+            position: absolute;
+        }
+        @keyframes myanim {
+            /* from{background-color:aquamarine aqua;left: 0px;top: 0px;}
+            to{background-color: black;left: 400px;top: 0px} */
+            0%{background-color: darkkhaki;left:0px;top:0px}
+            20%{background-color: black;left: 400px;top: 0px}
+            40%{background-color: antiquewhite;left: 400px;top: 400px}
+            60%{background-color:blue antiquewhite;left: 0px;top: 400px}
+            80%{background-color:coral antiquewhite;left: 0px;top: 200px}
+            100%{background-color:crimson antiquewhite;left: 0px;top: 0px}
+            
+        }
+    </style>
+</head>
+<body>
+    <div align = 'center'>
+        <h1>Welcome All</h1>
+    </div>
+    <div id = 'box'>
+        <h2>Welcome All</h2>
+    </div>
+</body>
+</html>

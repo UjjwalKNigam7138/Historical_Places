@@ -1,0 +1,17 @@
+// Variable->store the data
+$mystyle : #B9F3FC;
+#mydiv{
+    background-color: $mystyle;
+    padding : 10px
+h1{
+    color: $mystyle;
+    // background-color: crimson;
+    padding: 80px;
+    border-radius: 20px;
+}
+$mycolor2:red;
+h2{
+    color: $mycolor2;
+}
+}
+// in Sass we can use arithematic operstions on padding,margin etc.

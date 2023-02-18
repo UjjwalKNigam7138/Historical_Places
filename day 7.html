@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #a{grid-area: a1;}
+        #b{grid-area: b1;}
+        #c{grid-area: c1;}
+        #d{grid-area: d1;}
+        #e{grid-area: e1;}
+        /* grid area = place where the data needs to be written */
+        .maindiv{
+            display: grid;
+            /* display = flex 
+            flex-direction = row
+            use this in case of flexbox*/
+            grid-template-areas:"a1 a1 a1 a1 a1 a1"  
+            "b1 b1 b1 c1 c1 c1"
+            "d1 d1 d1 e1 e1 e1";
+            padding : 10px;
+            background-color:gold;
+            margin: 10px;
+            grid-gap:10px;
+            border-radius: 10px;
+        }
+        .maindiv > div{
+            padding : 10px;
+            background-image: linear-gradient(green,red,orange,white);
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: dotted;
+        }
+        h1{
+            left: 0px;
+            top: 0px;
+            /* use bottom in case of footer */
+            position: fixed;
+            background-color: cornsilk;
+            color: darkblue;
+            font-family: 'Times New Roman', Times, serif;
+            width: 100%;
+            text-align: center;
+        }
+        body{
+            padding: 80px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Grid Box-> combination of rows and columns or 2 dimension -->
+    <div class="maindiv">
+        <div id="a">Introduction to Grid box</div>
+        <div id="b">Adding Images</div>
+        <div id="c">Adding content</div>
+        <div id="d">contact us</div>
+        <div id="e">status of the task</div>
+    </div>
+    <h1 id="header" >Welcome to my page</h1>   
+</body>
+</html>

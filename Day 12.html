@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=10;
+        var a=20;
+        // console.log(a)
+        let b=20.4;
+        // let b=10.8;
+        // we cannot redeclare the value of "let" variable.
+        // console.log(b)
+        const city="Bangalore";
+        // we cannot redeclare the value of "const" variable.
+        // console.log(city)
+        // Functional Scope
+        function data()
+        {
+            var a1=2347
+            let b1=347
+            const city1="mumbai"
+            console.log(a1)
+            // Block Scope means that the "let and the const" keyword is accessible only inside the loop. 
+        if (3<5)
+        {
+            var a2=1234
+            let b2=2135.123
+            const city2="Lucknow"
+            console.log(b2)
+        }
+        // console.log(a2)
+        } 
+        data()
+        // console.log(b2)
+        console.log(2=="two")
+        if (2>9)
+        {
+            console.log("First Number is greater")
+        }
+        else
+        {
+            console.log("The second number is greater")
+        }
+        var username = prompt("Enter the Username")
+        var password = prompt("Enter the Password")
+        if(username == "Admin" && password=="Pass")
+        {
+            console.log("Logged in")
+        }
+        else
+        {
+            console.log("Invalid Credentials")
+        }
+    </script>
+</body>
+</html>
